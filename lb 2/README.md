@@ -34,14 +34,17 @@
 3.  Код розміщено у віддаленому репозиторії GitHub.
 
 ### 1) Код програми
+[Переглянути код](./lb2.py)
 
-```python
-mystring = "Hello, world!"
-myfloat = 10.0
-myint = 20
-if mystring == "Hello, world!":
-    print(f"String: {mystring}")
-if isinstance(myfloat, float) and myfloat == 10.0:
-    print(f"Float: {myfloat}")
-if isinstance(myint, int) and myint == 20:
-    print(f"Integer: {myint}")
+### 2) Результат
+![Результат роботи](./result.png)
+
+  ---
+
+  ## Висновки
+
+Під час виконання цієї лабораторної роботи я створив(ла) програму мовою **Python** для обчислення значення функції `y = (x^2 + 2x - 3) / x`.
+Я навчив(ла)ся:
+* Отримувати дані від користувача в Python за допомогою `input()` та конвертувати їх у числовий тип `float()`.
+* Використовувати конструкцію `try...except` для обробки виняткових ситуацій, зокрема, `ZeroDivisionError` (ділення на нуль).
+* Виводити відформатований результат користувачу.
